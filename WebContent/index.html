@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="mycss.css">
+<title>Insert title here</title>
+</head>
+<body>
+	<form
+		action="file:///C:/Users/Comarch/Documents/jdbc/Pizza/WebContent/table.html"
+		method="post">
+		<div>
+
+			<fieldset>
+				<legend>Customers</legend>
+				<div>
+					<label for="name">Name:</label> <input type="text" id="name">
+				</div>
+				<div>
+					<label for="surname">Surname:</label> <input type="text"
+						id="surname">
+				</div>
+				<div>
+					<label for="email">Email:</label> <input type="text" id="email">
+				</div>
+				<div id="radio-button">
+					<label for="individual">Type:</label> <input type="radio"
+						value="Individual" name="group" id="individual">Individual
+					<input type="radio" name="group" id="bussiness">Bussiness
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Pizza</legend>
+				<div>
+					<label for="Name">Name:</label> <input type="text" id="Name">
+				</div>
+
+				<div>
+					<label for="type">Type:</label> <select>
+						<option value="Normal">Normal</option>
+						<option value="Large">Large</option>
+						<option value="Big">Big</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Suggested delivery date</legend>
+				<label for="date"></label> <input type="date" id="date">
+			</fieldset>
+
+			<fieldset>
+				<legend>Additional data</legend>
+				<label for="additional"></label>
+				<textarea rows="3" cols="30"></textarea>
+			</fieldset>
+
+			<div>
+				<form
+					action="file:///C:/Users/Comarch/Documents/jdbc/Pizza/WebContent/table.html">
+					<input type="submit" value="Order Pizza">
+				</form>
+			</div>
+
+		</div>
+	</form>
+
+</body>
+</html>

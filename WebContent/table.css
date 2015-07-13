@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+body{
+	margin-left: 5cm;
+	margin-right: 5cm;
+}
+
+#header {
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#pizzaOrders {
+	font-size: xx-large;
+	font-family: fantasy;
+	text-align: center;
+}
+
+#table {
+	text-align: center;
+	position: center;
+}
+
+
+#header:HOVER {
+	background-color: gray;
+}
+
+#pizzaOrders:HOVER {
+	background-color: blue;
+}
+#table:HOVER th {
+	background-color: fuchsia;
+}
+
+#table:HOVER tr {
+	background-color: olive;
+}
+
+#lineSeparator {
+	height: 1px;
+	background: #717171;
+	border-bottom: 1px solid #313030;
+}

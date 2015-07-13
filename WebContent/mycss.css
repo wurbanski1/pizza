@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+ body {
+ 	background-image: url(pizza.jpg); background-repeat: repeat-y; background-position: center;
+ 	
+ }
+ legend {
+ 	font-size: x-large;
+ 	font-family: fantasy;
+ }
+ 
+ #individual {
+ 	background-color: black;
+ 	
+ }
